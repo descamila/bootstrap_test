@@ -94,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <li><a href="#">Redes</a></li>
                         <li><a href="#">Seguridad</a></li>
                         <li><a href="#">Servicios WEB</a></li>
-                        <li><a href="#contact" >Contactenos</a></li>
+                        <li><a href="#contact" >Contactanos</a></li>
                     </ul>
                 </div>
             </div>
@@ -109,15 +109,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
             <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img class="first-slide" src="img/Sist1.jpg" alt="First slide">
+              <img class="first-slide" src="img/sist1.jpg" alt="First slide">
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>Example headline.</h1>
-                  <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                  <h1>Servicio y Asesoria.</h1>
+                  <p>Instalación, configuración y revisión de Servidores y equipos de cómputo.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Saber Más</a></p>
                 </div>
               </div>
             </div>
@@ -125,9 +126,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <img class="second-slide" src="img/sist2.jpg" alt="Second slide">
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>Another example headline.</h1>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                  <h1>Mantenimiento a Equipos.</h1>
+                  <p>Mantenmiento preventivo, correctivo a equipos de computo e impresoras</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Saber Más</a></p>
                 </div>
               </div>
             </div>
@@ -135,9 +136,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <img class="third-slide" src="img/cable2.jpg" alt="Third slide">
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>One more for good measure.</h1>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                  <h1>Diseño, Instalación y Mantenimiento.</h1>
+                  <p>Redes estructuradas de acuerdo a las necesidades de su empresa.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Saber Más</a></p>
                 </div>
               </div>
             </div>
@@ -145,9 +146,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <img class="third-slide" src="img/WH4.jpeg" alt="Fourth slide">
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>One more for good measure.</h1>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                  <h1>Sistemas de Seguridad</h1>
+                  <p>Instalación y configuración de sistemas de seguridad para la información de su empresa acorde a las politicas y lineamientos requeridos</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Saber Más</a></p>
                 </div>
               </div>
             </div>
@@ -155,9 +156,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <img class="third-slide" src="img/cctv7.jpg" alt="Fiveth slide">
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>One more for good measure.</h1>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                  <h1>Sistema de CCTV</h1>
+                  <p>Diseño configuración y mantenimiento de sistemas CCTV acorde a las necesidades del cliente.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Saber Más</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="third-slide" src="img/pw1.png" alt="Fiveth slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Servicos WEB.</h1>
+                  <p>Diseño y actualización de páginas WEB, así como tambien renta de Hosting y mantenimiento de dominios.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Saber Más</a></p>
                 </div>
               </div>
             </div>
@@ -179,8 +190,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
        
     <!-- Servicios WEB -->           
         
-        <!-- Contactos -->
-        <h1 class="text2" id="contact">Contactenos</h1>
+        <!-- Contactanos -->
+        <h1 class="text2" id="contact">Contactanos</h1>
     <?php if(!empty($emailSent)): ?>
         <div class="col-md-6 col-md-offset-3">
             <div class="alert alert-success text-center"><?php echo $config->get('messages.success'); ?></div>
